@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sleep+_Regression_Suite]">
+  <listeners>
+    <listener class-name="listener.CustomListeners"/>
+    <listener class-name="listener.ExtentReporterNG"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.Sleep_Today">
+        <methods>
+          <include name="init"/>
+          <include name="validateHeroCardTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Sleep_Today -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Sleep+_Regression_Suite] -->

@@ -1,0 +1,239 @@
+2019-10-14 04:45:06:225 [Appium] Welcome to Appium v1.13.0
+2019-10-14 04:45:06:227 [Appium] Non-default server args:
+2019-10-14 04:45:06:228 [Appium]   logFile: C:\Users\320074350\OneDrive - Philips\deskttop\Sleep+\Sleep+\SleepPlus\src\test\resources\logs\Appium.txt
+2019-10-14 04:45:06:343 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-10-14 04:45:06:652 [HTTP] --> GET /wd/hub/status
+2019-10-14 04:45:06:652 [HTTP] {}
+2019-10-14 04:45:06:655 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-10-14 04:45:06:656 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.13.0"}}
+2019-10-14 04:45:06:662 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2019-10-14 04:45:06:662 [HTTP] 
+2019-10-14 04:45:07:695 [HTTP] --> POST /wd/hub/session
+2019-10-14 04:45:07:696 [HTTP] {"desiredCapabilities":{"appPackage":"com.hp.sleep","appActivity":"com.hp.sleep.MainActivity","platformVersion":"8.1.0","automationName":"Appium","platformName":"Android","deviceName":"Android"}}
+2019-10-14 04:45:07:696 [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.hp.sleep","appActivity":"com.hp.sleep.MainActivity","platformVersion":"8.1.0","automationName":"Appium","platformName":"Android","deviceName":"Android"},null,null]
+2019-10-14 04:45:07:697 [BaseDriver] Event 'newSessionRequested' logged at 1571028307697 (10:15:07 GMT+0530 (India Standard Time))
+2019-10-14 04:45:07:700 [Appium] 
+2019-10-14 04:45:07:700 [Appium] ======================================================================
+2019-10-14 04:45:07:701 [Appium]   DEPRECATION WARNING:
+2019-10-14 04:45:07:701 [Appium] 
+2019-10-14 04:45:07:701 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-10-14 04:45:07:701 [Appium]   capabilities for this Android session
+2019-10-14 04:45:07:701 [Appium] 
+2019-10-14 04:45:07:702 [Appium]   Setting 'automationName=UiAutomator1' by default and using the 
+2019-10-14 04:45:07:702 [Appium]   UiAutomator1 Driver
+2019-10-14 04:45:07:702 [Appium] 
+2019-10-14 04:45:07:702 [Appium]   The next minor version of Appium (1.14.x) will set 
+2019-10-14 04:45:07:702 [Appium]   'automationName=UiAutomator2' by default and use the UiAutomator2 
+2019-10-14 04:45:07:702 [Appium]   Driver
+2019-10-14 04:45:07:702 [Appium] 
+2019-10-14 04:45:07:703 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-10-14 04:45:07:703 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-10-14 04:45:07:703 [Appium]   platforms
+2019-10-14 04:45:07:703 [Appium] 
+2019-10-14 04:45:07:703 [Appium]   If you are happy with 'UiAutomator1' and do not wish to upgrade 
+2019-10-14 04:45:07:703 [Appium]   Android drivers, please add 'automationName=UiAutomator1' to your 
+2019-10-14 04:45:07:704 [Appium]   desired capabilities
+2019-10-14 04:45:07:704 [Appium] 
+2019-10-14 04:45:07:704 [Appium]   For more information about drivers, please visit 
+2019-10-14 04:45:07:704 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-10-14 04:45:07:704 [Appium]   'Drivers' menu
+2019-10-14 04:45:07:704 [Appium] 
+2019-10-14 04:45:07:704 [Appium] ======================================================================
+2019-10-14 04:45:07:705 [Appium] 
+2019-10-14 04:45:07:705 [Appium] Setting automation to 'UiAutomator1'. 
+2019-10-14 04:45:07:705 [Appium] Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+2019-10-14 04:45:08:100 [Appium] Appium v1.13.0 creating new AndroidDriver (v4.15.1) session
+2019-10-14 04:45:08:100 [Appium] Capabilities:
+2019-10-14 04:45:08:100 [Appium]   appPackage: com.hp.sleep
+2019-10-14 04:45:08:100 [Appium]   appActivity: com.hp.sleep.MainActivity
+2019-10-14 04:45:08:101 [Appium]   platformVersion: 8.1.0
+2019-10-14 04:45:08:101 [Appium]   automationName: Appium
+2019-10-14 04:45:08:101 [Appium]   platformName: Android
+2019-10-14 04:45:08:101 [Appium]   deviceName: Android
+2019-10-14 04:45:08:104 [BaseDriver] Creating session with MJSONWP desired capabilities: {"appPackage":"com.hp.sleep...
+2019-10-14 04:45:08:110 [BaseDriver] Session created with session id: cd67b36f-aa08-4a25-b9f0-2e983c183aec
+2019-10-14 04:45:08:138 [ADB] Found 1 'build-tools' folders under 'C:\Users\320074350\AppData\Local\Android\Sdk' (newest first):
+2019-10-14 04:45:08:138 [ADB]     C:/Users/320074350/AppData/Local/Android/Sdk/build-tools/29.0.2
+2019-10-14 04:45:08:139 [ADB] Using 'adb.exe' from 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2019-10-14 04:45:08:140 [AndroidDriver] Retrieving device list
+2019-10-14 04:45:08:140 [ADB] Trying to find a connected android device
+2019-10-14 04:45:08:141 [ADB] Getting connected devices...
+2019-10-14 04:45:12:598 [ADB] 1 device(s) connected
+2019-10-14 04:45:12:598 [AndroidDriver] Looking for a device with Android '8.1.0'
+2019-10-14 04:45:12:599 [ADB] Setting device id to 2cbf963f9905
+2019-10-14 04:45:12:599 [ADB] Getting device platform version
+2019-10-14 04:45:12:600 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell getprop ro.build.version.release'
+2019-10-14 04:45:12:903 [ADB] Current device property 'ro.build.version.release': 8.1.0
+2019-10-14 04:45:12:904 [AndroidDriver] Using device: 2cbf963f9905
+2019-10-14 04:45:12:906 [ADB] Using 'adb.exe' from 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2019-10-14 04:45:12:906 [ADB] Setting device id to 2cbf963f9905
+2019-10-14 04:45:12:907 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell getprop ro.build.version.sdk'
+2019-10-14 04:45:13:032 [ADB] Current device property 'ro.build.version.sdk': 27
+2019-10-14 04:45:13:033 [ADB] Device API level: 27
+2019-10-14 04:45:13:034 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-10-14 04:45:13:034 [AndroidDriver] App file was not listed, instead we're going to run com.hp.sleep directly on the device
+2019-10-14 04:45:13:035 [AndroidDriver] Checking whether package is present on the device
+2019-10-14 04:45:13:035 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell pm list packages com.hp.sleep'
+2019-10-14 04:45:14:933 [AndroidDriver] Starting Android session
+2019-10-14 04:45:14:935 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 wait-for-device'
+2019-10-14 04:45:15:005 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell echo ping'
+2019-10-14 04:45:15:102 [AndroidDriver] Pushing settings apk to device...
+2019-10-14 04:45:15:103 [ADB] Getting install status for io.appium.settings
+2019-10-14 04:45:15:103 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell dumpsys package io.appium.settings'
+2019-10-14 04:45:15:245 [ADB] 'io.appium.settings' is installed
+2019-10-14 04:45:15:246 [ADB] Getting package info for 'io.appium.settings'
+2019-10-14 04:45:15:247 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell dumpsys package io.appium.settings'
+2019-10-14 04:45:15:395 [ADB] Using 'aapt.exe' from 'C:\Users\320074350\AppData\Local\Android\Sdk\build-tools\29.0.2\aapt.exe'
+2019-10-14 04:45:27:096 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+2019-10-14 04:45:27:097 [ADB] There is no need to install/upgrade 'C:\Users\320074350\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-10-14 04:45:27:098 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-10-14 04:45:27:099 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell 'pgrep --help; echo $?''
+2019-10-14 04:45:27:249 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell pgrep -f io\\.appium\\.settings'
+2019-10-14 04:45:27:439 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-10-14 04:45:28:315 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell appops set io.appium.settings android\:mock_location allow'
+2019-10-14 04:45:28:441 [Logcat] Starting logcat capture
+2019-10-14 04:45:28:549 [ADB] Getting device platform version
+2019-10-14 04:45:28:550 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell getprop ro.build.version.release'
+2019-10-14 04:45:28:714 [ADB] Current device property 'ro.build.version.release': 8.1.0
+2019-10-14 04:45:28:715 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell wm size'
+2019-10-14 04:45:29:596 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell getprop ro.product.model'
+2019-10-14 04:45:29:707 [ADB] Current device property 'ro.product.model': Redmi Note 5
+2019-10-14 04:45:29:708 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell getprop ro.product.manufacturer'
+2019-10-14 04:45:29:845 [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2019-10-14 04:45:29:846 [AndroidDriver] No app sent in, not parsing package/activity
+2019-10-14 04:45:29:847 [AndroidDriver] No app capability. Assuming it is already on the device
+2019-10-14 04:45:29:847 [ADB] Getting install status for com.hp.sleep
+2019-10-14 04:45:29:848 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell dumpsys package com.hp.sleep'
+2019-10-14 04:45:29:979 [ADB] 'com.hp.sleep' is installed
+2019-10-14 04:45:29:979 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell am force-stop com.hp.sleep'
+2019-10-14 04:45:30:125 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell pm clear com.hp.sleep'
+2019-10-14 04:45:31:085 [AndroidDriver] Performed fast reset on the installed 'com.hp.sleep' application (stop and clear)
+2019-10-14 04:45:31:086 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-10-14 04:45:31:088 [ADB] Forwarding system: 4724 to device: 4724
+2019-10-14 04:45:31:089 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 forward tcp\:4724 tcp\:4724'
+2019-10-14 04:45:31:156 [UiAutomator] Starting UiAutomator
+2019-10-14 04:45:31:156 [UiAutomator] Moving to state 'starting'
+2019-10-14 04:45:31:157 [UiAutomator] Parsing uiautomator jar
+2019-10-14 04:45:31:157 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-10-14 04:45:31:158 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell mkdir -p /data/local'
+2019-10-14 04:45:31:273 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 push C\:\\Users\\320074350\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-10-14 04:45:31:377 [ADB] Attempting to kill all uiautomator processes
+2019-10-14 04:45:31:377 [ADB] Getting IDs of all 'uiautomator' processes
+2019-10-14 04:45:31:378 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell pgrep -f uiautomator'
+2019-10-14 04:45:31:532 [ADB] No 'uiautomator' process has been found
+2019-10-14 04:45:31:532 [UiAutomator] Starting UIAutomator
+2019-10-14 04:45:31:533 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","2cbf963f9905","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.hp.sleep","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-10-14 04:45:32:710 [UiAutomator] Moving to state 'online'
+2019-10-14 04:45:32:719 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2019-10-14 04:45:32:720 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-10-14 04:45:32:735 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-10-14 04:45:32:737 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell dumpsys window'
+2019-10-14 04:45:32:748 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-10-14 04:45:32:889 [AndroidDriver] Screen already unlocked, doing nothing
+2019-10-14 04:45:32:890 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell am start -W -n com.hp.sleep/com.hp.sleep.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-10-14 04:45:35:730 [Appium] New AndroidDriver session created successfully, session cd67b36f-aa08-4a25-b9f0-2e983c183aec added to master session list
+2019-10-14 04:45:35:732 [BaseDriver] Event 'newSessionStarted' logged at 1571028335731 (10:15:35 GMT+0530 (India Standard Time))
+2019-10-14 04:45:35:733 [MJSONWP (cd67b36f)] Cached the protocol value 'MJSONWP' for the new session cd67b36f-aa08-4a25-b9f0-2e983c183aec
+2019-10-14 04:45:35:734 [MJSONWP (cd67b36f)] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.hp.sleep","appActivity":"com.hp.sleep.MainActivity","platformVersion":"8.1.0","automationName":"Appium","platformName":"Android","deviceName":"Android"},"appPackage":"com.hp.sleep","appActivity":"com.hp.sleep.MainActivity","platformVersion":"8.1.0","automationName":"Appium","platformName":"Android","deviceName":"2cbf963f9905","deviceUDID":"2cbf963f9905","deviceScreenSize":"1080x2160","deviceModel":"Redmi Note 5","deviceManufacturer":"Xiaomi"}
+2019-10-14 04:45:35:736 [HTTP] <-- POST /wd/hub/session 200 28040 ms - 742
+2019-10-14 04:45:35:737 [HTTP] 
+2019-10-14 04:45:35:825 [HTTP] --> POST /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/timeouts
+2019-10-14 04:45:35:825 [HTTP] {"type":"implicit","ms":50000}
+2019-10-14 04:45:35:827 [MJSONWP (cd67b36f)] Calling AppiumDriver.timeouts() with args: ["implicit",50000,null,null,null,"cd67b36f-aa08-4a25-b9f0-2e983c183aec"]
+2019-10-14 04:45:35:839 [BaseDriver] MJSONWP timeout arguments: {"type":"implicit","ms":50000}}
+2019-10-14 04:45:35:840 [BaseDriver] Set implicit wait to 50000ms
+2019-10-14 04:45:35:841 [MJSONWP (cd67b36f)] Responding to client with driver.timeouts() result: null
+2019-10-14 04:45:35:842 [HTTP] <-- POST /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/timeouts 200 17 ms - 76
+2019-10-14 04:45:35:842 [HTTP] 
+2019-10-14 04:45:36:076 [HTTP] --> POST /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/timeouts
+2019-10-14 04:45:36:077 [HTTP] {"type":"implicit","ms":0}
+2019-10-14 04:45:36:077 [MJSONWP (cd67b36f)] Calling AppiumDriver.timeouts() with args: ["implicit",0,null,null,null,"cd67b36f-aa08-4a25-b9f0-2e983c183aec"]
+2019-10-14 04:45:36:078 [BaseDriver] MJSONWP timeout arguments: {"type":"implicit","ms":0}}
+2019-10-14 04:45:36:078 [BaseDriver] Set implicit wait to 0ms
+2019-10-14 04:45:36:079 [MJSONWP (cd67b36f)] Responding to client with driver.timeouts() result: null
+2019-10-14 04:45:36:081 [HTTP] <-- POST /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/timeouts 200 4 ms - 76
+2019-10-14 04:45:36:081 [HTTP] 
+2019-10-14 04:45:36:093 [HTTP] --> GET /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/context
+2019-10-14 04:45:36:093 [HTTP] {}
+2019-10-14 04:45:36:098 [MJSONWP (cd67b36f)] Calling AppiumDriver.getCurrentContext() with args: ["cd67b36f-aa08-4a25-b9f0-2e983c183aec"]
+2019-10-14 04:45:36:099 [MJSONWP (cd67b36f)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2019-10-14 04:45:36:100 [HTTP] <-- GET /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/context 200 7 ms - 84
+2019-10-14 04:45:36:101 [HTTP] 
+2019-10-14 04:45:36:105 [HTTP] --> POST /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/elements
+2019-10-14 04:45:36:105 [HTTP] {"using":"xpath","value":"//*[@text='Good Morning,']"}
+2019-10-14 04:45:36:106 [MJSONWP (cd67b36f)] Calling AppiumDriver.findElements() with args: ["xpath","//*[@text='Good Morning,']","cd67b36f-aa08-4a25-b9f0-2e983c183aec"]
+2019-10-14 04:45:36:108 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-10-14 04:45:36:109 [BaseDriver] Waiting up to 0 ms for condition
+2019-10-14 04:45:36:110 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='Good Morning,']","context":"","multiple":true}}
+2019-10-14 04:45:36:117 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='Good Morning,']","context":"","multiple":true}}
+2019-10-14 04:45:36:117 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-10-14 04:45:36:117 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-10-14 04:45:36:118 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='Good Morning,']' using 'XPATH' with the contextId: '' multiple: true
+2019-10-14 04:45:36:398 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=4]
+2019-10-14 04:45:36:399 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=4]
+2019-10-14 04:45:36:400 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+2019-10-14 04:45:36:445 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+2019-10-14 04:45:36:446 [AndroidBootstrap] Received command result from bootstrap
+2019-10-14 04:45:36:447 [MJSONWP (cd67b36f)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}]
+2019-10-14 04:45:36:448 [HTTP] <-- POST /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/elements 200 342 ms - 131
+2019-10-14 04:45:36:448 [HTTP] 
+2019-10-14 04:45:36:456 [HTTP] --> POST /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/timeouts
+2019-10-14 04:45:36:456 [HTTP] {"type":"implicit","ms":15000}
+2019-10-14 04:45:36:456 [MJSONWP (cd67b36f)] Calling AppiumDriver.timeouts() with args: ["implicit",15000,null,null,null,"cd67b36f-aa08-4a25-b9f0-2e983c183aec"]
+2019-10-14 04:45:36:458 [BaseDriver] MJSONWP timeout arguments: {"type":"implicit","ms":15000}}
+2019-10-14 04:45:36:458 [BaseDriver] Set implicit wait to 15000ms
+2019-10-14 04:45:36:459 [MJSONWP (cd67b36f)] Responding to client with driver.timeouts() result: null
+2019-10-14 04:45:36:459 [HTTP] <-- POST /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/timeouts 200 3 ms - 76
+2019-10-14 04:45:36:460 [HTTP] 
+2019-10-14 04:45:36:465 [HTTP] --> GET /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/element/1/text
+2019-10-14 04:45:36:466 [HTTP] {}
+2019-10-14 04:45:36:466 [MJSONWP (cd67b36f)] Calling AppiumDriver.getText() with args: ["1","cd67b36f-aa08-4a25-b9f0-2e983c183aec"]
+2019-10-14 04:45:36:468 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"1"}}
+2019-10-14 04:45:36:470 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"1"}}
+2019-10-14 04:45:36:471 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-10-14 04:45:36:471 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+2019-10-14 04:45:36:488 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Good Morning,"}
+2019-10-14 04:45:36:489 [AndroidBootstrap] Received command result from bootstrap
+2019-10-14 04:45:36:490 [MJSONWP (cd67b36f)] Responding to client with driver.getText() result: "Good Morning,"
+2019-10-14 04:45:36:491 [HTTP] <-- GET /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec/element/1/text 200 25 ms - 87
+2019-10-14 04:45:36:491 [HTTP] 
+2019-10-14 04:45:46:546 [HTTP] --> DELETE /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec
+2019-10-14 04:45:46:547 [HTTP] {}
+2019-10-14 04:45:46:547 [MJSONWP (cd67b36f)] Calling AppiumDriver.deleteSession() with args: ["cd67b36f-aa08-4a25-b9f0-2e983c183aec"]
+2019-10-14 04:45:46:547 [BaseDriver] Event 'quitSessionRequested' logged at 1571028346547 (10:15:46 GMT+0530 (India Standard Time))
+2019-10-14 04:45:46:548 [Appium] Removing session cd67b36f-aa08-4a25-b9f0-2e983c183aec from our master session list
+2019-10-14 04:45:46:549 [AndroidDriver] Shutting down Android driver
+2019-10-14 04:45:46:557 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell am force-stop com.hp.sleep'
+2019-10-14 04:45:46:837 [ADB] Pressing the HOME button
+2019-10-14 04:45:46:838 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell input keyevent 3'
+2019-10-14 04:45:47:808 [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2019-10-14 04:45:47:814 [AndroidBootstrap] Received command result from bootstrap
+2019-10-14 04:45:47:815 [UiAutomator] Shutting down UiAutomator
+2019-10-14 04:45:47:815 [UiAutomator] Moving to state 'stopping'
+2019-10-14 04:45:47:817 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2019-10-14 04:45:47:818 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2019-10-14 04:45:47:818 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2019-10-14 04:45:47:818 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2019-10-14 04:45:47:819 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2019-10-14 04:45:47:819 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2019-10-14 04:45:47:819 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2019-10-14 04:45:47:819 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2019-10-14 04:45:47:820 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2019-10-14 04:45:47:820 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2019-10-14 04:45:47:820 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2019-10-14 04:45:47:840 [UiAutomator] UiAutomator shut down normally
+2019-10-14 04:45:47:841 [UiAutomator] Moving to state 'stopped'
+2019-10-14 04:45:47:847 [ADB] Attempting to kill all uiautomator processes
+2019-10-14 04:45:47:847 [ADB] Getting IDs of all 'uiautomator' processes
+2019-10-14 04:45:47:848 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell pgrep -f uiautomator'
+2019-10-14 04:45:48:042 [ADB] No 'uiautomator' process has been found
+2019-10-14 04:45:48:042 [UiAutomator] Moving to state 'stopped'
+2019-10-14 04:45:48:043 [Logcat] Stopping logcat capture
+2019-10-14 04:45:48:049 [ADB] Running 'C:\Users\320074350\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 2cbf963f9905 shell am force-stop io.appium.unlock'
+2019-10-14 04:45:48:189 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-10-14 04:45:48:190 [BaseDriver] Event 'quitSessionFinished' logged at 1571028348189 (10:15:48 GMT+0530 (India Standard Time))
+2019-10-14 04:45:48:190 [MJSONWP (cd67b36f)] Received response: null
+2019-10-14 04:45:48:190 [MJSONWP (cd67b36f)] But deleting session, so not returning
+2019-10-14 04:45:48:191 [MJSONWP (cd67b36f)] Responding to client with driver.deleteSession() result: null
+2019-10-14 04:45:48:192 [HTTP] <-- DELETE /wd/hub/session/cd67b36f-aa08-4a25-b9f0-2e983c183aec 200 1645 ms - 76
+2019-10-14 04:45:48:192 [HTTP] 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sleep+_Regression_Suite" duration-ms="656" started-at="2019-10-14T04:45:35Z" finished-at="2019-10-14T04:45:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="656" started-at="2019-10-14T04:45:35Z" finished-at="2019-10-14T04:45:36Z">
+      <class name="testcases.Sleep_Today">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.Sleep_Today@c86b9e3]" name="setUp" is-config="true" duration-ms="34432" started-at="2019-10-14T10:15:01Z" finished-at="2019-10-14T10:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.Sleep_Today@c86b9e3]" name="init" is-config="true" duration-ms="208" started-at="2019-10-14T10:15:35Z" finished-at="2019-10-14T10:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateHeroCardTitle()[pri:0, instance:testcases.Sleep_Today@c86b9e3]" name="validateHeroCardTitle" duration-ms="431" started-at="2019-10-14T10:15:36Z" finished-at="2019-10-14T10:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeroCardTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.Sleep_Today@c86b9e3]" name="tearDown" is-config="true" duration-ms="12745" started-at="2019-10-14T10:15:36Z" finished-at="2019-10-14T10:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Sleep_Today -->
+    </test> <!-- Test -->
+  </suite> <!-- Sleep+_Regression_Suite -->
+</testng-results>
